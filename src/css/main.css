@@ -8,7 +8,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: var(--background);
     margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -19,6 +18,16 @@ body {
     color: var(--text_color);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    background-color: var(--background_alt);
+    padding: 5px;
+}
+
+.nav .logo {
+    image-rendering: pixelated;
+    height: 30px;
 }
 
 h1 {
@@ -44,7 +53,7 @@ footer {
     width: 100%;
 }
 
-a {
+footer .hyper_link {
     color: var(--text_color);
     text-decoration: none;
 }
